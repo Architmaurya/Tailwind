@@ -335,48 +335,254 @@
             </div>
         </div>  
     </section> 
-    <section class="bg-[url(Razoroay/images/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[10rem] pb-[350px] mt-14">
+    <!--Feature section 2-->
+    <section class="bg-[url(Razoroay/images/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[10rem] pb-[300px] mt-14">
         <div class="w-10/12 max-w-[1080]pt- mx-auto relative ">
             <h2 class="font-mullish font-bold leading-[1.2] text-white text-center text-2xl">Explore Razorpay Business Banking</h2>
             <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
             <!--Main feature box-->
-            <div class="relative w-full min-h-[440px] flex ">
+            <div class="relative w-full min-h-[440px] flex flex-col ">
                 <img src="Razoroay/images/x-flame-1.png" class="absolute -top-[142px] -left-[140px] w-[200px]" loading="lazy">
                 <img src="Razoroay/images/x-flame-2.png" class="absolute top-[150px] -right-[180px] w-[270px]" loading="lazy">
                 <!--Content box-->
-                <div class="relative w-full bg-[#181c2e] p-10 py-12">
+                <div class="relative w-full bg-[#181c2e] p-10 py-12 border border-slate-700 z-20 rounded-md gap-4 ">
                     <!--Left part-->
-                    <div class="flex flex-col ">
-                        <h3>Manage your company's financs with <img src="Razoroay/images/razorpayX.svg"><span>Business Banking</span></h3>
-                        <ul>
-                            <li>
-                                <i></i>
+                    <div class="flex flex-col justify-between items-start h-full w-full z-20 space-y-10">
+                        <h3 class="font-mullish text-[28px] text-balance font-bold text-white leading-10 max-w-[500px]">Manage your company's financs with <img src="Razoroay/images/razorpayX.svg" width="168px" height="32px" class="inline"><span class="text-greenLight">Business Banking</span></h3>
+                        <ul class="space-y-2 ">
+                            <li class="font-mullish text-white flex items-center space-x-2" >
+                                <i data-feather="check" class="text-greenLight"></i>
                                 <span>Open a fully digital current account</span>
                             </li>
-                            <li>
-                                <i></i>
+                            <li class="font-mullish text-white flex items-center space-x-2" >
+                                <i data-feather="check" class="text-greenLight"></i>
                                 <span>Open a fully digital current account</span>
                             </li>
-                            <li>
-                                <i></i>
+                            <li class="font-mullish text-white flex items-center space-x-2" >
+                                <i data-feather="check" class="text-greenLight"></i>
                                 <span>Open a fully digital current account</span>
                             </li>
-                            <li>
-                                <i></i>
+                            <li class="font-mullish text-white flex items-center space-x-2" >
+                                <i data-feather="check" class="text-greenLight"></i>
                                 <span>Open a fully digital current account</span>
                             </li>
                         </ul>
-                        <div>
-                            <button>Sign Up</button>
+                        <div class="flex flex-row w-full space-x-4 items-center text-white">
+                            <button class="relative bg-lightBlue py-[14px] px-[18px] md:pr-[90px] rounded-md 
+                            justify-start flex items-center font-mullish font-bold hover:bg-lightBlue transition-all duration-200">Sign Up <div class=" absolute w-12 h-[60px] bg-greenLight right-6 skew-x-[20deg] flex justify-center items-center">
+                                <!--Arrow-->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" class="w-[20px] h-[20px] -skew-x-[20deg]"><path style="fill:#232326" d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg>
+                            </div></button>
+                        
                             <!--hyper link-->
-                            <a href="">Know More</a>
-                            <i></i>
+                            <div class="flex flex-row  items-center cursor-pointer group">
+                            <a href="#" class="font-mullish font-bold text-lightBlue500 hover:text-lightBlue transition-all duration-200">Know More</a>
+                            <i data-feather="chevron-right" class="w-5 h-5 text-lightBlue500 group:hover:text-blue-50"></i>
+                            </div>
                         </div>
                     </div>
                     <!--Background image-->
                     <div>
-                        <img src="Razoroay/images/buisness-banking.png" alt="" srcset="">
+                        <img src="Razoroay/images/buisness-banking.png" loading="lazy" class="max-w-[600px] absolute right-0 bottom-0 ">
                     </div>
+                </div>
+                <!--Card box-->
+                <div class="grid grid-cols-3 w-full gap-4 my-14">
+                    <!--Box1-->
+                      <div
+                      class="w-full min-h-[15rem] relative cursor-pointer featureCard2"
+                    >
+                      <!-- box icon -->
+                      <img
+                        src="Razoroay/images/current-icon.svg"
+                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
+                      />
+                      <!-- box shape -->
+                      <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                        style="stroke-opacity: 0.8"
+                      >
+                        <path
+                          d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                          fill="#181C2E"
+                        ></path>
+                      </svg>
+                      <!-- box content -->
+                      <div
+                        class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox"
+                      >
+                        <div>
+                          <h3
+                            class="font-mullish font-extrabold text-white leading-[1.2] text-[1.375rem]"
+                          >
+                            Current Account
+                          </h3>
+                          <p class="font-mullish text-grayText mt-6">
+                            Current accounts for fast-growing businesses, supported by the
+                            best-in-class technology
+                          </p>
+                        </div>
+                        <div class="flex items-center cursor-pointer place-items-end">
+                          <a
+                            href="#"
+                            class="font-mullish font-bold text-lightBlue500 transition-all duration-200"
+                            >Know More</a
+                          >
+                          <i
+                            data-feather="chevron-right"
+                            class="w-5 h-5 text-lightBlue500 transition-all duration-200"
+                          ></i>
+                        </div>
+                      </div>
+                      </div>
+                      <!--Box2-->
+                      <div
+                      class="w-full min-h-[15rem] relative cursor-pointer featureCard2"
+                    >
+                      <!-- box icon -->
+                      <img
+                        src="Razoroay/images/current-icon.svg"
+                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
+                      />
+                      <!-- box shape -->
+                      <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                        style="stroke-opacity: 0.8"
+                      >
+                        <path
+                          d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                          fill="#181C2E"
+                        ></path>
+                      </svg>
+                      <!-- box content -->
+                      <div
+                        class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox"
+                      >
+                        <div>
+                          <h3
+                            class="font-mullish font-extrabold text-white leading-[1.2] text-[1.375rem]"
+                          >
+                            Current Account
+                          </h3>
+                          <p class="font-mullish text-grayText mt-6">
+                            Current accounts for fast-growing businesses, supported by the
+                            best-in-class technology
+                          </p>
+                        </div>
+                        <div class="flex items-center cursor-pointer place-items-end">
+                          <a
+                            href="#"
+                            class="font-mullish font-bold text-lightBlue500 transition-all duration-200"
+                            >Know More</a
+                          >
+                          <i
+                            data-feather="chevron-right"
+                            class="w-5 h-5 text-lightBlue500 transition-all duration-200"
+                          ></i>
+                        </div>
+                      </div>
+                      </div>
+                      <!--Box3-->
+                      <div
+                      class="w-full min-h-[15rem] relative cursor-pointer featureCard2"
+                    >
+                      <!-- box icon -->
+                      <img
+                        src="Razoroay/images/current-icon.svg"
+                        class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[80] featureCardIcon transition-all duration-200"
+                      />
+                      <!-- box shape -->
+                      <svg
+                        viewBox="0 0 349.32501220703125 225"
+                        xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="none"
+                        class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                        style="stroke-opacity: 0.8"
+                      >
+                        <path
+                          d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z"
+                          fill="#181C2E"
+                        ></path>
+                      </svg>
+                      <!-- box content -->
+                      <div
+                        class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox"
+                      >
+                        <div>
+                          <h3
+                            class="font-mullish font-extrabold text-white leading-[1.2] text-[1.375rem]"
+                          >
+                            Current Account
+                          </h3>
+                          <p class="font-mullish text-grayText mt-6">
+                            Current accounts for fast-growing businesses, supported by the
+                            best-in-class technology
+                          </p>
+                        </div>
+                        <div class="flex items-center cursor-pointer place-items-end">
+                          <a
+                            href="#"
+                            class="font-mullish font-bold text-lightBlue500 transition-all duration-200"
+                            >Know More</a
+                          >
+                          <i
+                            data-feather="chevron-right"
+                            class="w-5 h-5 text-lightBlue500 transition-all duration-200"
+                          ></i>
+                        </div>
+                      </div>
+                      </div>
+                </div>
+                <!--Demo box-->
+                <div class="w-full flex flex-row items-center justify-evenly border border-slate-700
+                mb-24 gap-y-6 p-8 relative rounded-md">
+                    <p class="font-mullish text-white text-xl">Check out the live demo to learn hoe razorpayX works.
+                        <span class="text-bold">No sign-up reqired</span>
+                    </p>
+                    <div class="flex flex-row  space-x-4 items-center text-white">
+                        <button class="relative bg-lightBlue py-[14px] px-[18px] md:pr-[90px] rounded-md 
+                        justify-start flex items-center font-mullish font-bold hover:bg-lightBlue transition-all duration-200">Check out demo <div class=" absolute w-12 h-[60px] bg-greenLight right-6 skew-x-[20deg] flex justify-center items-center">
+                            <!--Arrow-->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" class="w-[20px] h-[20px] -skew-x-[20deg]"><path style="fill:#232326" d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg>
+                        </div></button>
+                    </div>
+                </div>
                 </div>
             </div>
 
